@@ -66,7 +66,7 @@
 
 (defn -main [& args]
   (add-item {:summary "Dish wash"})
-  (add-item {:summary "Do dinnar"})
+  (add-item {:summary "Do dinner"})
   (add-item {:summary "More todo"})
 
   (run-jetty app {:port 3000}))
